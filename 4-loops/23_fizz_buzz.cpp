@@ -5,7 +5,7 @@
 
 int main() {
   for (int num = 1; num <= 100; num++) {
-    if (num % 3 == 0 and num % 5 == 0) {
+    if (num % 15 == 0) {
       std::cout << "FizzBuzz\n";
     }
     elif (num % 3 == 0) {
